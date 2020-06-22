@@ -27,7 +27,7 @@ body {
     -khtml-border-radius: 16px;
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(30px);
-    border: blueviolet solid 1px;
+    border: blueviolet solid 15px;
 }
 .buttons {
     min-width: 300px;
