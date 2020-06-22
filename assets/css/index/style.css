@@ -71,7 +71,7 @@ a.link {
     width: 10em;
     height: 10em;
     border-radius: 5.6em;
-    border: blueviolet solid 2px;
+    border: white solid 4px;
 }
 
 .pizdec {
@@ -83,7 +83,7 @@ a.link {
 a.link:hover,
 button:hover {
     background: #fff6;
-    color: blueviolet;
+    color: red;
 }
 
 button:active, button:focus {
@@ -160,8 +160,8 @@ input[type=button] {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     -moz-tap-highlight-color: rgba(0,0,0,0);
     padding: 12px 20px;
-    background: rgb(115, 15, 124);
-    color: #fff;
+    background: rgb(255, 0, 0);
+    color: #FFFFFF;
     border: 0 none;
     cursor: pointer;
     border-radius: 8px;
