@@ -5,8 +5,8 @@ body {
     margin: 0;
     background: var(--back-gif) center;
     background-size: cover;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     display: flex;
     font-family: 'Product Sans';
     font: 'Product Sans';
