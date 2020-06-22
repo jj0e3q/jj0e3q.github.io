@@ -87,4 +87,20 @@
             window.addEventListener('devtoolschange', event => { window.location.href = getComputedStyle(document.body).getPropertyValue('--pasxalka'); });
         }
     </script>
+    <script type="text/javascript">
+setInterval(function () {
+ date = new Date(),
+ h = date.getHours(),
+ m = date.getMinutes(),
+ s = date.getSeconds(),
+ h = (h < 10) ? '0' + h : h,
+ m = (m < 10) ? '0' + m : m,
+ s = (s < 10) ? '0' + s : s,
+ document.getElementById('time').innerHTML = h + ':' + m + ':' + s;
+}, 1000);
+</script>
+
+<span style="color:#7e5a25; font-size:14pt; border:2px solid #e1d4ae; background:#e8e3d4; padding:5px;">
+<span id="time">00:00:00</span>
+</span>
 </html>
