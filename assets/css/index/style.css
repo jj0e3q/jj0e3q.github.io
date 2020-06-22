@@ -25,9 +25,9 @@ body {
     -webkit-border-radius: 16px;
     -moz-border-radius: 16px;
     -khtml-border-radius: 16px;
-    backdrop-filter: blur(30px);
-    -webkit-backdrop-filter: blur(30px);
-    border: blueviolet solid 10px;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: blueviolet solid 0px;
 }
 .buttons {
     min-width: 300px;
