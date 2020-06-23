@@ -34,7 +34,7 @@ a {
     padding: 8px 20px;
     margin: 4px;
     background: #fff3;
-    color: #fff;
+    color: #00000;
     cursor: pointer;
     border-radius: 8px;
     -webkit-border-radius: 8px;
@@ -50,7 +50,7 @@ a {
 a:hover,
 button:hover {
     background: #fff6;
-    color: blueviolet;
+    color: pink;
 }
 
 button:active, button:focus {
