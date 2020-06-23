@@ -11,6 +11,40 @@ body {
     font-family: 'Product Sans';
     font: 'Product Sans';
 }
+
+.typed {
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+
 .center {
     justify-content: center;
     align-items: center;
@@ -68,10 +102,10 @@ a.link {
 }
 
 .avatar {
-    width: 10em;
-    height: 10em;
+    width: 9em;
+    height: 9em;
     border-radius: 5.6em;
-    border: white solid 4px;
+    border: white solid 1.5px;
 }
 
 .pizdec {
