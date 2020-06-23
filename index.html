@@ -90,7 +90,7 @@
         $("#name").text(getComputedStyle(document.body).getPropertyValue('--name'))
         $("#description").text(getComputedStyle(document.body).getPropertyValue('--description'))
         // ОНО НЕ РАБОТАЕТ СПАСИБО ЖС СПАСИБО ИДИ НАХУЙ
-        console.log('Пасхалка не работает идите нахуй')
+        console.log('пошёл нахуй')
         if (getComputedStyle(document.body).getPropertyValue('--has-pasxalka-work') == "true") {
             if(window.devtools.isOpen) { window.location.href = getComputedStyle(document.body).getPropertyValue('--pasxalka'); }
             window.addEventListener('devtoolschange', event => { window.location.href = getComputedStyle(document.body).getPropertyValue('--pasxalka'); });
