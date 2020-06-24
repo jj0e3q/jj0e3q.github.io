@@ -23,6 +23,6 @@ $(".typed").typed({
       strings: ['1 sit nn dog', "clown", "dead inside", "stupid shit of a stupid shit"],
       typeSpeed: 100,
       loop: true,
-      cursorChar: "|",
+      cursorChar: "",
   });
 });
