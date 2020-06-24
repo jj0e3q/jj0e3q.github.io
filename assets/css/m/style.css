@@ -10,8 +10,8 @@ body {
     font: 'Product Sans';
 }
 .blur {
-    backdrop-filter: blur(0px);
-    -webkit-backdrop-filter: blur(0px);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 .center {
     justify-content: center;
