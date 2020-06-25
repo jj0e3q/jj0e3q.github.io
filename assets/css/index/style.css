@@ -80,8 +80,8 @@ a.link {
     -moz-tap-highlight-color: rgba(0,0,0,0);
     padding: 8px 20px;
     margin: 4px;
-    background: var(--back-color);
-    color: #fff;
+    background: white;
+    color: #000000;
     cursor: pointer;
     border-radius: 8px;
     -webkit-border-radius: 8px;
@@ -121,7 +121,7 @@ button:hover {
 }
 
 button:active, button:focus {
-      outline: none;
+      outline: black;
 }
 
 button::-moz-focus-inner {
