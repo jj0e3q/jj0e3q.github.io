@@ -1,23 +1,22 @@
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>jj0e3q</title>
-        <meta property="og:title" content="jj0e3q">
-        <meta property="og:locale" content="en_EU">
-        <meta property="og:description" content="jj0e3q's main page">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="assets/favico/eblan.png" type="image/png">
-        <script src="https://sindresorhus.com/devtools-detect/index.js"></script>
-        <link rel="stylesheet" href="assets/fonts/gsans/style.css">
-        <link rel="stylesheet" href="assets/vars.css">
-        <link rel="stylesheet" href="assets/css/index/style.css">
-        <link rel="stylesheet" href="libs/css/font-awesome.min.css">
-        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-        <script src="assets/css/js/text.js"></script>
-        <script src="assets/css/js/typed.min.js"></script>
-        <meta name="theme-color" content="#C21CC7">
-
-    </head>
+﻿<html>
+<head>
+    <meta charset="utf-8">
+    <title>jj0e3q</title>
+    <meta property="og:title" content="jj0e3q">
+    <meta property="og:locale" content="en_EU">
+    <meta property="og:description" content="jj0e3q's main page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favico.png" type="image/png">
+    <script src="https://sindresorhus.com/devtools-detect/index.js"></script>
+    <link rel="stylesheet" href="assets/fonts/gsans/style.css">
+    <link rel="stylesheet" href="assets/vars.css">
+    <link rel="stylesheet" href="assets/css/index/style.css">
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="assets/css/js/text.js"></script>
+    <script src="assets/css/js/typed.min.js"></script>
+    <meta name="theme-color" content="#C21CC7">
+</head>
     <body class="center">
         <script>
             var test = false;
@@ -37,81 +36,63 @@
                 return false
             }
             if (is_shit()) {
-                document.body.style.backgroundImage = "url('')";
+                document.body.style.backgroundImage = "url('assets/anims/background.gif')";
             }
         </script>
-        <div id="donate">
-            <div class="popup">
-                <h1>Donate</h1>
-                <p align="center">
-                    <h3><span class="font-size=larger">Отправляя донат, вы делаете автора счастливее</span></h3>
-                    <h2>Select payment method</h2>
-                    <p align="center">
-						<input type="button" class="btn" value="QIWI" onclick="location.href='https://qiwi.me/jj0e3q'">
-                        <br>
-						<input type="button" class="btn" value="Donation Alerts" onclick="location.href='https://www.donationalerts.com/r/jj0e3q'">
-                    </p>
-                    <p align="center"><input class="btn" type="button" value="Close" title="Close" onclick="document.getElementById('donate').style.display='none';"></p>
-                </p>
-            </div>
-        </div>
+                    <script type="text/javascript">
+                        $(window).on('load', function () {
+                            var $preloader = $('#page-preloader'),
+                                $spinner = $preloader.find('.spin');
+                            $spinner.delay(100).fadeOut('slow');
+                            $preloader.delay(450).fadeOut('slow');
+                        });
+                        function is_shit() {
+                            if (/MSIE/i.test(navigator.userAgent)) return true
+                            if (/firefox/i.test(navigator.userAgent)) return true
+                            if (/Trident/i.test(navigator.userAgent)) return true
+                            if (/Edge/i.test(navigator.userAgent)) return true
+                            return false
+                        }
+                    </script>
         <audio autoplay loop id="player">
-            <source src="assets/sounds/imsorry.mp3">
+            <source src="assets/sounds/audio.mp3">
             <script>
                 document.currentScript.parentElement.volume = 0.50;
             </script>
         </audio>
         <header class="center info">
             <div class="center pizdec">
-                <div class="avatar-container"><img src="assets/images/ava.jpg" oncontextmenu="return false;" class="avatar"></div>
-                <h2><span id="name"></span></h2>
+                <div class="avatar-container"><img src="assets/images/avatar.jpg" oncontextmenu="return false;" class="avatar"></div>
+                <h2><span id="name">jj0e3q</span></h2>
                 <hr width="295">
                 <h3><span class="typed"></span><span class="typed-cursor">|</span></h3>
-                <hr width="310">
+                <hr width="295">
             </div>
             <div class="buttons">
-                <a href="javascript://" class="link" onclick="location.href='https://t.me/j0e3q'"
-                <span class="icon">
-                  <i class="fa fa-telegram" aria-hidden="true"></i>
-                </span>
-
-                <a href="javascript://" class="link" onclick="location.href='https://vk.com/dejoeq'"
-                <span class="icon">
-                  <i class="fa fa-vk" aria-hidden="true"></i>
-                </span>
-
-                <a href="javascript://" class="link" onclick="location.href='https://steamcommunity.com/id/jj0e3q/'"><i class="fa fa-steam" aria-hidden="true"></i></a>
+                <a href="javascript://" class="link" onclick="location.href='https://t.me/jj0e3q'"><i class="fab fa-telegram-plane"></i></a>
+                <a href="javascript://" class="link" onclick="location.href='https://vk.com/dejoeq'"><i class="fab fa-vk"></i></a>
+                <a href="javascript://" class="link" onclick="location.href='https://steamcommunity.com/id/jj0e3q/'"><i class="fab fa-steam-symbol"></i></a>
             </div>
             <div class="buttons">
-                <a href="javascript://" class="link" onclick="document.getElementById('donate').style.display='block'"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                <a href="javascript://" class="link" onclick="location.href='https://donate.qiwi.com/payin/jj0e3q'"><i class="fas fa-dollar-sign"></i></a>
             </div>
-            <hr width="500">
-            <div class="center pizdec">
+        </header>
+        <div>
+            <script type="text/javascript">
+                setInterval(function () {
+                    date = new Date(),
+                        h = date.getHours(),
+                        m = date.getMinutes(),
+                        s = date.getSeconds(),
+                        h = (h < 10) ? '0' + h : h,
+                        m = (m < 10) ? '0' + m : m,
+                        s = (s < 10) ? '0' + s : s,
+                        document.getElementById('time').innerHTML = h + ':' + m + ':' + s;
+                }, 1000);
+            </script>
+            <span style="color:#FFFFFF; font-size:14pt; padding:5px;">
+                <span id="time">00:00:00</span>
+            </span>
+        </div>
     </body>
-    <script>
-        $("#name").text(getComputedStyle(document.body).getPropertyValue('--name'))
-        $("#description").text(getComputedStyle(document.body).getPropertyValue('--description'))
-        // ОНО НЕ РАБОТАЕТ СПАСИБО ЖС СПАСИБО ИДИ НАХУЙ
-        console.log('пошёл нахуй')
-        if (getComputedStyle(document.body).getPropertyValue('--has-pasxalka-work') == "true") {
-            if(window.devtools.isOpen) { window.location.href = getComputedStyle(document.body).getPropertyValue('--pasxalka'); }
-            window.addEventListener('devtoolschange', event => { window.location.href = getComputedStyle(document.body).getPropertyValue('--pasxalka'); });
-        }
-    </script>
-    <script type="text/javascript">
-setInterval(function () {
- date = new Date(),
- h = date.getHours(),
- m = date.getMinutes(),
- s = date.getSeconds(),
- h = (h < 10) ? '0' + h : h,
- m = (m < 10) ? '0' + m : m,
- s = (s < 10) ? '0' + s : s,
- document.getElementById('time').innerHTML = h + ':' + m + ':' + s;
-}, 1000);
-</script>
-
-<span style="color:#000000; font-size:14pt; border:0px solid #FFFFFF; background:transparent; padding:5px;">
-<span id="time">00:00:00</span>
-</span>
 </html>

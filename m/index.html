@@ -1,4 +1,4 @@
-<html>
+﻿<html>
     <head>
         <meta charset="utf-8">
         <title>jj0e3q</title>
@@ -6,124 +6,98 @@
         <meta property="og:locale" content="en_EU">
         <meta property="og:description" content="jj0e3q's mobile main page">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="../assets/favico/eblan.png" type="image/png">
+        <link rel="shortcut icon" href="/assets/images/favico.png" type="image/png">
         <script src="https://sindresorhus.com/devtools-detect/index.js"></script>
-        <link rel="stylesheet" href="../assets/fonts/gsans/style.css">
+        <link rel="stylesheet" href="/assets/fonts/gsans/style.css">
         <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.5.95/css/materialdesignicons.min.css">
-        <link rel="stylesheet" href="../assets/css/m/bootstrap.css">
-        <link rel="stylesheet" href="../assets/css/m/style.css">
+        <link rel="stylesheet" href="/assets/css/m/bootstrap.css">
+        <link rel="stylesheet" href="/assets/css/m/style.css">
+        <link rel="stylesheet" href="/assets/vars.css">
         <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-        <script src="../assets/css/js/text.js"></script>
-        <script src="../assets/css/js/typed.min.js"></script>
-        <link rel="stylesheet" href="../assets/vars.css">
+        <link rel="stylesheet" href="/assets/vars.css">
+        <script src="assets/css/js/text.js"></script>
+        <script src="assets/css/js/typed.min.js"></script>
+        <script src="assets/css/js/style.js"></script>
         <meta name="theme-color" content="#C21CC7">
     </head>
-    <script>
-        var test = false
-        if (!test) {
-            function isMacintosh() {
-                return navigator.platform.indexOf('Mac') > -1
-            }
+    <body class="center blur">
+        <script>
+            var test = false
+            if (!test) {
+                function isMacintosh() {
+                    return navigator.platform.indexOf('Mac') > -1
+                }
 
-            function isWindows() {
-                return navigator.platform.indexOf('Win') > -1
-            }
+                function isWindows() {
+                    return navigator.platform.indexOf('Win') > -1
+                }
 
-            if(isMacintosh()|| isWindows()) {
-                window.location.replace("../")
-            }
-        }
-    </script>
-    <div id="page-preloader">
-        <span class="spin mdi mdi-loading mdi-spin"></span>
-        <script type="text/javascript">
-            $(window).on('load', function () {
-                var $preloader = $('#page-preloader'),
-                $spinner   = $preloader.find('.spin');
-                $spinner.delay(100).fadeOut('slow');
-                $preloader.delay(450).fadeOut('slow');
-            });
-            function is_shit() {
-                if (/MSIE/i.test(navigator.userAgent)) return true
-                if (/firefox/i.test(navigator.userAgent)) return true
-                if (/Trident/i.test(navigator.userAgent)) return true
-                if (/Edge/i.test(navigator.userAgent)) return true
-                return false
-            }
-            if (is_shit()) {
-                document.body.style.backgroundImage = "url('../assets/anims/aye.gif')";
             }
         </script>
-    </div>
-    <body class="center blur">
+        <div id="page-preloader">
+            <span class="spin mdi mdi-loading mdi-spin"></span>
+            <script type="text/javascript">
+                $(window).on('load', function () {
+                    var $preloader = $('#page-preloader'),
+                        $spinner = $preloader.find('.spin');
+                    $spinner.delay(100).fadeOut('slow');
+                    $preloader.delay(450).fadeOut('slow');
+                });
+                function is_shit() {
+                    if (/MSIE/i.test(navigator.userAgent)) return true
+                    if (/firefox/i.test(navigator.userAgent)) return true
+                    if (/Trident/i.test(navigator.userAgent)) return true
+                    if (/Edge/i.test(navigator.userAgent)) return true
+                    return false
+                }
+            </script>
+        </div>
         <audio autoplay loop id="player">
-            <source src="../assets/sounds/imsorry.mp3">
+            <source src="/assets/sounds/audio.mp3">
             <script>
                 document.currentScript.parentElement.volume = 0.50;
             </script>
         </audio>
         <header class="center info">
             <div class="center pizdec">
-                <div class="avatar-container"><img src="../assets/images/ava2.jpg" oncontextmenu="return false;" class="avatar"></div>
-                <h2><span id="name"></span></h2>
+                <div class="avatar-container"><img src="/assets/images/avatar.jpg" oncontextmenu="return false;" class="avatar"></div>
+                <h2><span id="name">jj0e3q</span></h2>
                 <hr width="295">
-                <h3><span class="typed"></span><span class="typed-cursor"></span></h3>
-                <hr width="295">
+                <h3>So what interests you?</h3>
             </div>
-            <div class="center pizdec"><h2>Links</h2></div>
             <div class="social linkMenu d-flex justify-content-center">
-                <a href="javascript://" onclick="location.href='https://steamcommunity.com/id/nnkoro/'" class="mx-2 social-icon" data-tooltip="Steam">
-                  <span class="mdi mdi-steam"></span>
-                </a>
-
-                <a href="javascript://" onclick="location.href='https://t.me/j0e3q'" class="mx-2 social-icon" data-tooltip="Telegram">
+                <a href="javascript://" onclick="location.href='https://t.me/jj0e3q'" class="mx-2 social-icon" data-tooltip="Telegram">
                     <span class="mdi mdi-telegram"></span>
                 </a>
                 <a href="javascript://" onclick="location.href='https://vk.com/dejoeq'" class="mx-2 social-icon" data-tooltip="VK">
                     <span class="mdi mdi-vk"></span>
                 </a>
-            </div>
-            <div class="center pizdec">
-                <h2>Donate</h2>
-            </div>
-            <div class="social linkMenu d-flex justify-content-center">
-                <a class="mx-2 social-icon" data-tooltip="Donate" href="#" data-toggle="modal" data-target="#donut">
-                    <span class="mdi mdi-heart-outline"></span>
+                <a href="javascript://" onclick="location.href='https://steamcommunity.com/id/jj0e3q/'" class="mx-2 social-icon" data-tooltip="Steam">
+                    <span class="mdi mdi-steam"></span>
+                </a>
+                <a href="javascript://" onclick="location.href='https://donate.qiwi.com/payin/jj0e3q'" class="mx-2 social-icon" data-tooltip="Donate">
+                    <span class="mdi mdi-heart"></span>
                 </a>
             </div>
-            <div class="modal fade" id="donut" tabindex="-1" role="dialog" aria-labelledby="..." aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h2 class="modal-title gsmedium" id="ModalLabel">Donate</h2>
-                            <a class="close" data-dismiss="modal" aria-label="Close"><span class="black clickable mdi mdi-24px mdi-close"></span></a>
-                        </div>
-                        <div class="modal-body black">
-                            <a href="javascript://" onclick="location.href='https://qiwi.me/jj0e3q'" class="btn btn-donut pl-3 mb-3 mx-1">
-                                <span class="mdi mdi-coin"></span>
-                                <span class="mx-2">QIWI</span>
-                            </a>
-                            <a href="javascript://" onclick="location.href='https://www.donationalerts.com/r/jj0e3q'" class="btn btn-donut pl-3 mb-3 mx-1">
-                                <span class="mdi mdi-currency-rub"></span>
-                                <span class="mx-2">Donation Alerts</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </header>
+                <div>
+                    <script type="text/javascript">
+                        setInterval(function () {
+                            date = new Date(),
+                                h = date.getHours(),
+                                m = date.getMinutes(),
+                                s = date.getSeconds(),
+                                h = (h < 10) ? '0' + h : h,
+                                m = (m < 10) ? '0' + m : m,
+                                s = (s < 10) ? '0' + s : s,
+                                document.getElementById('time').innerHTML = h + ':' + m + ':' + s;
+                        }, 1000);
+                    </script>
+                    <span style="color:#FFFFFF; font-size:14pt; padding:5px;">
+                        <span id="time">00:00:00</span>
+                    </span>
+                </div>
     </body>
-    <script>
-        $("#name").text(getComputedStyle(document.body).getPropertyValue('--name'))
-        $("#description").text(getComputedStyle(document.body).getPropertyValue('--description'))
-        // ОНО НЕ РАБОТАЕТ СПАСИБО ЖС СПАСИБО ИДИ НАХУЙ
-        console.log('Пасхалка не работает идите нахуй')
-        if (getComputedStyle(document.body).getPropertyValue('--has-pasxalka-work') == "true") {
-            if(window.devtools.isOpen) { window.location.href = getComputedStyle(document.body).getPropertyValue('--pasxalka'); }
-            window.addEventListener('devtoolschange', event => { window.location.href = getComputedStyle(document.body).getPropertyValue('--pasxalka'); });
-        }
-    </script>
 </html>

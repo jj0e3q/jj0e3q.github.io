@@ -1,7 +1,7 @@
 $(function() {
     var title = document.title,
-      animSeq = ["|"],
-        animIndex = 0,
+      animSeq = [""],
+        animIndex = 1,
         titleIndex = 0;
     function doInverseSpinZeroPitch() {
         var loadTitle = title.substring(0, titleIndex);
@@ -13,15 +13,15 @@ $(function() {
             titleIndex++;
             animIndex = 0
         }
-        document.title = loadTitle + animSeq[0];
+        document.title = loadTitle
         animIndex++
     }
-    window.setInterval(doInverseSpinZeroPitch, 150);
+    window.setInterval(doInverseSpinZeroPitch, 200);
 });
 $(function() {
 $(".typed").typed({
-      strings: ['1 sit nn dog', "clown", "dead inside", "stupid shit of a stupid shit"],
-      typeSpeed: 100,
+      strings: ['уёбище', "клоун", "", "stupid shit of a stupid shit"],
+      typeSpeed: 150,
       loop: true,
       cursorChar: "|",
   });
