@@ -113,7 +113,7 @@ a.link {
 a.link:hover,
 button:hover {
     background: #fff6;
-    color: blueviolet;
+    color: rgb(252, 161, 176);
 }
 
 button:active, button:focus {
