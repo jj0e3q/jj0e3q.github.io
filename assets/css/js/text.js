@@ -20,7 +20,7 @@ $(function() {
 });
 $(function() {
 $(".typed").typed({
-      strings: ['уёбище', "клоун", "", "stupid shit of a stupid shit"],
+      strings: ['уёбище', "клоун", "", "черножопый сука"],
       typeSpeed: 150,
       loop: true,
       cursorChar: "|",
