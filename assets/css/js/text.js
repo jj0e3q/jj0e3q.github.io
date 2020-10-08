@@ -7,7 +7,7 @@ $(function() {
 });
 $(function() {
 $(".typed").typed({
-      strings: ['уёбище', "клоун", "", "черножопый сука"],
+      strings: ['noname', "clown", "noob html developer", "stupid shit of a stupid shit"],
       typeSpeed: 150,
       loop: true,
       cursorChar: "|",
