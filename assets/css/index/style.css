@@ -9,6 +9,8 @@ body {
     display: flex;
     font-family: 'Product Sans';
     font: 'Product Sans';
+    font-family: 'Play', sans-serif;
+    font: "Play";
 }
 .typed {
     color: var(--text-color);
@@ -53,13 +55,13 @@ body {
     background: none;
     padding: 35px;
     color: var(--text-color);
-    border-radius: 16px; 
+    border-radius: 16px;
     -webkit-border-radius: 16px;
     -moz-border-radius: 16px;
     -khtml-border-radius: 16px;
-    backdrop-filter: blur(0px);
-    -webkit-backdrop-filter: blur(15px);
-    border: blueviolet solid 0px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: black solid 0px;
 }
 .buttons {
     min-width: 300px;
@@ -77,7 +79,7 @@ a.link {
     padding: 8px 20px; 
     margin: 4px;
     background: var(--back-color);
-    color: #fff;
+    color: #000000;
     cursor: pointer;
     border-radius: 8px; 
     -webkit-border-radius: 8px;
@@ -101,7 +103,7 @@ a.link {
     width: 10em;
     height: 10em;
     border-radius: 7em;
-    border: pink solid 3px;
+    border: black solid 1px;
 }
 
 .pizdec {
@@ -113,7 +115,7 @@ a.link {
 a.link:hover,
 button:hover {
     background: #fff6;
-    color: rgb(252, 161, 176);
+    color: red;
 }
 
 button:active, button:focus {
@@ -134,15 +136,24 @@ hr {
     margin-top: 5px;
 }
 
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font: "Raleway";
+}
+
 h3 {
+    font-family: 'Raleway', sans-serif;
+    font: "Raleway";
     font-style: normal;
-    font-weight: inherit;
+    font-weight: 400;
     transition: .2ms;
     -webkit-transition: .2ms;
     -moz-transition: .2ms;
 }
 
 h2 {
+    font-family: 'Raleway', sans-serif;
+    font: "Raleway";
     font-size: larger;
     transition: .2ms;
     -webkit-transition: .2ms;

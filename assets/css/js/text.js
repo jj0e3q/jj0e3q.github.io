@@ -7,8 +7,8 @@ $(function() {
 });
 $(function() {
 $(".typed").typed({
-      strings: ['noname', "clown", "noob html developer", "stupid shit of a stupid shit"],
-      typeSpeed: 150,
+      strings: ['dota2 player(pidoras)', "clown...", "noob html developer", "stupid shit of a stupid shit"],
+      typeSpeed: 30,
       loop: true,
       cursorChar: "|",
   });
