@@ -103,7 +103,7 @@ a.link {
     width: 10em;
     height: 10em;
     border-radius: 7em;
-    border: black solid 1px;
+    border: pink solid 3px;
 }
 
 .pizdec {
@@ -131,7 +131,7 @@ button::-webkit-focus-inner {
 }
 
 hr {
-    border: none;
+    border: pink solid 1px;
     margin-bottom: 5px;
     margin-top: 5px;
 }
@@ -142,8 +142,6 @@ h1 {
 }
 
 h3 {
-    font-family: 'Raleway', sans-serif;
-    font: "Raleway";
     font-style: normal;
     font-weight: 400;
     transition: .2ms;
@@ -152,8 +150,6 @@ h3 {
 }
 
 h2 {
-    font-family: 'Raleway', sans-serif;
-    font: "Raleway";
     font-size: larger;
     transition: .2ms;
     -webkit-transition: .2ms;
