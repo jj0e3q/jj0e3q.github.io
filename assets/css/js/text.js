@@ -7,7 +7,7 @@ $(function() {
 });
 $(function() {
 $(".typed").typed({
-      strings: ['dota2 player(pidoras)', "clown...", "noob html developer", "stupid shit of a stupid shit"],
+      strings: [' ', "clown...", "Beginner html developer", "Anime girl"],
       typeSpeed: 30,
       loop: true,
       cursorChar: "|",

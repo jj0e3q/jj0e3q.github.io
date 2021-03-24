@@ -14,7 +14,10 @@ body {
 }
 .typed {
     color: var(--text-color);
-    opacity: 0.8;
+    transition: .2ms;
+    font-size: large;
+    font-style: normal;
+    font-family: 'Open Sans';
 }
 .typed::after {
 	content: '|';
@@ -61,7 +64,6 @@ body {
     -khtml-border-radius: 16px;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    border: black solid 0px;
 }
 .buttons {
     min-width: 300px;
@@ -79,7 +81,7 @@ a.link {
     padding: 8px 20px; 
     margin: 4px;
     background: var(--back-color);
-    color: #000000;
+    color: white;
     cursor: pointer;
     border-radius: 8px; 
     -webkit-border-radius: 8px;
@@ -103,7 +105,7 @@ a.link {
     width: 10em;
     height: 10em;
     border-radius: 7em;
-    border: pink solid 3px;
+    border:  black solid 1px;
 }
 
 .pizdec {
@@ -114,8 +116,8 @@ a.link {
 
 a.link:hover,
 button:hover {
-    background: #fff6;
-    color: red;
+    background: rgba(109, 109, 109, 0.39);
+    color: rgb(56, 56, 56);
 }
 
 button:active, button:focus {
@@ -131,7 +133,7 @@ button::-webkit-focus-inner {
 }
 
 hr {
-    border: pink solid 1px;
+    border: blueviolet solid 1px;
     margin-bottom: 5px;
     margin-top: 5px;
 }
@@ -150,7 +152,9 @@ h3 {
 }
 
 h2 {
-    font-size: larger;
+    font-style: normal;
+    font-family: 'Open Sans';
+    font-size: large;
     transition: .2ms;
     -webkit-transition: .2ms;
     -moz-transition: .2ms;

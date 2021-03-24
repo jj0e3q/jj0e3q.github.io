@@ -11,7 +11,7 @@ body {
 }
 .typed {
     color: var(--text-color);
-    opacity: 0.8;
+    opacity: 1;
 }
 .typed::after {
 	content: '|';
@@ -92,7 +92,7 @@ a.link {
     width: 10em;
     height: 10em;
     border-radius: 5.6em;
-    border: pink solid 3px;
+    border: black solid 2px;
 }
 
 .pizdec {
@@ -103,8 +103,8 @@ a.link {
 
 a.link:hover,
 button:hover {
-    background: #fff6;
-    color: blueviolet;
+    background: rgba(109, 109, 109, 0.39);
+    color: rgb(56, 56, 56);
 }
 
 button:active, button:focus {
@@ -120,7 +120,7 @@ button::-webkit-focus-inner {
 }
 
 hr {
-    border: pink solid 1px;
+    border: white solid 1px;
     margin-bottom: 5px;
     margin-top: 5px;
 }
@@ -153,22 +153,24 @@ a.nolink {
     text-decoration: none;
     color: #666;
     outline: none;
-    border: none;
+    border: white solid 1px;
 }
 
 .social a {
-    background-color: rgba(0,0,0,.15);
+
+    background-color: rgba(255, 255, 255, 0.151);
     text-align: center;
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 100%;
     line-height: 2.5rem;
-    color: #000;
+    color: white;
     font-size: 20px;
+    transition: 2.s;
 }
 
 .social a:hover {
-    color: pink;
+    color: rgba(109, 109, 109, 0.39);
 }
 
 .social a:active {
@@ -196,18 +198,18 @@ a.nolink {
 .linkMenu {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     -moz-tap-highlight-color: rgba(0,0,0,0);
-    padding: 8px 2px; 
+    padding: 6px 1px; 
     margin: 0px;
-    background: var(--back-color);
     color: #fff;
-    border-radius: 8px; 
+    border-radius: 6px; 
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -khtml-border-radius: 8px;
     text-align: center;
     text-decoration: none;
     transition: .2s;
-    border: var(--border);
+    backdrop-filter: blur(100px);
+    border: white solid 0.5px;
 }
 .modal-title {
     font-weight: bold;
