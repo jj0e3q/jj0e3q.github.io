@@ -2,13 +2,14 @@
 <head>
     <meta charset="utf-8">
     <title>Site whose creator is a clown &#129313;</title>
-    <meta property="og:title" content="korodae">
+    <meta property="og:title" content="jj0e3q">
     <meta property="og:locale" content="en_EU">
-    <meta property="og:description" content="korodae's main page">
+    <meta property="og:description" content="jj0e3q main page">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/images/favico.png" type="image/png">
     <script src="https://sindresorhus.com/devtools-detect/index.js"></script>
     <link rel="stylesheet" href="assets/fonts/gsans/style.css">
+    <link rel="stylesheet" href="assets/fonts/iosevka/iosevka-ss05.css">
     <link rel="stylesheet" href="assets/vars.css">
     <link rel="stylesheet" href="assets/css/index/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
@@ -61,6 +62,22 @@
             <script>
                 document.currentScript.parentElement.volume = 0.25; 
             </script>
+            <script type="text/javascript">
+            document.onkeydown = function(e) {
+            if(event.keyCode == 123) {
+            return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+            return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+            return false;
+            }
+            if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+            return false;
+            }
+            }
+            </script>
         </audio>
         <header class="center info">
             <div class="center pizdec">
@@ -71,13 +88,13 @@
             <div class="buttons">
                 <a href="javascript://" class="link" onclick="location.href='https://t.me/jj0e3q'"><i class="fab fa-telegram-plane"></i></a>
                 <a href="javascript://" class="link" onclick="location.href='https://vk.com/jj0e3q'"><i class="fab fa-vk"></i></a>
-                <a href="javascript://" class="link" onclick="location.href='https://steamcommunity.com/id/jj0e3q/'"><i class="fab fa-steam-symbol"></i></a>
+                <a href="javascript://" class="link" onclick="location.href='https://steamcommunity.com/id/jj0e3q/'"><i class="fab fa-steam-symbol" data-tooltip="Steam"></i></a>
             </div>
             <div class="buttons">
                 <a href="javascript://" class="link" onclick="location.href='https://donate.qiwi.com/payin/jj0e3q'"><i class="fas fa-dollar-sign"></i></a>
             </div>
             <br>
-                        <span style="color:rgb(255, 255, 255); font-size: large; padding: 5px; font-family: 'Open Sans';">
+                        <span style="color:rgb(255, 255, 255); font-size: large; padding: 5px; font-family: 'Product Sans';">
                             <span id="time">00:00:00</span>
                         </span>
         </header>

@@ -2,9 +2,9 @@
     <head>
         <meta charset="utf-8">
         <title>Site whose creator is a clown &#129313;</title>
-        <meta property="og:title" content="korodae">
+        <meta property="og:title" content="jj0e3q>
         <meta property="og:locale" content="en_EU">
-        <meta property="og:description" content="korodae's mobile main page">
+        <meta property="og:description" content="jj0e3q mobile main page">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="/assets/images/favico.png" type="image/png">
         <script src="https://sindresorhus.com/devtools-detect/index.js"></script>
@@ -53,6 +53,22 @@
                     return false
                 }
             </script>
+            <script type="text/javascript">
+                document.onkeydown = function(e) {
+                if(event.keyCode == 123) {
+                return false;
+                }
+                if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+                return false;
+                }
+                if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+                return false;
+                }
+                if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+                return false;
+                }
+            }
+            </script>
         </div>
         <audio autoplay loop id="player">
             <source src="/assets/sounds/audio.mp3">
@@ -70,14 +86,18 @@
                 <a href="javascript://" onclick="location.href='https://t.me/jj0e3q'" class="mx-2 social-icon" data-tooltip="Telegram">
                     <span class="mdi mdi-telegram"></span>
                 </a>
-                <a href="javascript://" onclick="location.href='https://vk.com/jj0e3q'" class="mx-2 social-icon" data-tooltip="VK">
+                <hr>
+                <a href="javascript://" onclick="location.href='https://vk.com/dejoeq'" class="mx-2 social-icon" data-tooltip="VK">
                     <span class="mdi mdi-vk"></span>
                 </a>
+                <hr>
                 <a href="javascript://" onclick="location.href='https://steamcommunity.com/id/jj0e3q/'" class="mx-2 social-icon" data-tooltip="Steam">
                     <span class="mdi mdi-steam"></span>
                 </a>
-                <a href="javascript://" onclick="location.href='https://donate.qiwi.com/payin/jj0e3q'" class="mx-2 social-icon" data-tooltip="Donate">
-                    <span class="mdi mdi-heart"></span>
+            </div>
+            <div class="sociale linkMenu d-flex justify-content-center">
+                <a href="javascript://" onclick="location.href='https://donate.qiwi.com/payin/jj0e3q'" style="font-size: medium; font: 'Product Sans';">
+                    Donate
                 </a>
             </div>
         </header>
@@ -94,7 +114,7 @@
                                 document.getElementById('time').innerHTML = h + ':' + m + ':' + s;
                         }, 1000);
                     </script>
-                    <span style="color:white; font-size:large; padding:5px; font-family: 'Open Sans';">
+                    <span style="color:white; font-size:large; padding:5px; font-family: 'Product Sans';">
                         <span id="time">00:00:00</span>
                     </span>
                 </div>

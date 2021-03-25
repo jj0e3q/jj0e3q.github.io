@@ -14,7 +14,7 @@ body {
     opacity: 1;
 }
 .typed::after {
-	content: '|';
+	content: '?';
 	display: inline;
 	-webkit-animation: blink 0.7s infinite;
 	-moz-animation: blink 0.7s infinite;
@@ -92,7 +92,7 @@ a.link {
     width: 10em;
     height: 10em;
     border-radius: 5.6em;
-    border: black solid 2px;
+    border: white solid 2px;
 }
 
 .pizdec {
@@ -103,8 +103,8 @@ a.link {
 
 a.link:hover,
 button:hover {
-    background: rgba(109, 109, 109, 0.39);
-    color: rgb(56, 56, 56);
+    background: rgba(184, 184, 184, 0.39);
+    color: rgb(175, 175, 175);
 }
 
 button:active, button:focus {
@@ -135,6 +135,8 @@ h3 {
 
 h2 {
     font-size: larger;
+    font: 'Product Sans';
+    font-family: 'Product Sans';
     transition: .2ms;
     -webkit-transition: .2ms;
     -moz-transition: .2ms;
@@ -151,18 +153,36 @@ a.nolink:active,
 a.nolink:hover,
 a.nolink {
     text-decoration: none;
-    color: #666;
+    color: rgb(235, 235, 235);
     outline: none;
-    border: white solid 1px;
+    border: white solid 0px;
 }
 
+.sociale a {
+
+    background-color: rgba(143, 143, 143, 0.11);
+    text-align: center;
+    width: 11rem;
+    height: 2.5rem;
+    margin: 0px;
+    border-radius: 8px;
+    padding: 0px;
+    line-height: 2.5rem;
+    color: white;
+    font-size: 20px;
+    transition: .2s;
+}
 .social a {
 
-    background-color: rgba(255, 255, 255, 0.151);
+    background-color: rgba(143, 143, 143, 0.11);
     text-align: center;
-    width: 2.5rem;
+    width: 3rem;
     height: 2.5rem;
-    border-radius: 100%;
+    margin: 0px;
+    border-radius: 0px;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 0px;
     line-height: 2.5rem;
     color: white;
     font-size: 20px;
@@ -170,7 +190,7 @@ a.nolink {
 }
 
 .social a:hover {
-    color: rgba(109, 109, 109, 0.39);
+    color: rgb(109, 109, 109);
 }
 
 .social a:active {
@@ -200,7 +220,7 @@ a.nolink {
     -moz-tap-highlight-color: rgba(0,0,0,0);
     padding: 6px 1px; 
     margin: 0px;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.973);
     border-radius: 6px; 
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -209,7 +229,7 @@ a.nolink {
     text-decoration: none;
     transition: .2s;
     backdrop-filter: blur(100px);
-    border: white solid 0.5px;
+    border: white solid 0px;
 }
 .modal-title {
     font-weight: bold;
